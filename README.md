@@ -8,7 +8,7 @@ Juego de plataformas 2D estilo **Super Mario Bros (NES 1985)** para navegador, a
 
 - **Mario Veneko (Skin clásica NES Tricolor):** Basado exactamente en la matriz de píxeles 16×16 del Mario original de 1985, recoloreado con el amarillo, azul y rojo de la bandera de Venezuela y estrellas blancas en la gorra.
 - **Arepas en lugar de monedas:** Tanto las monedas flotantes como las que salen al golpear los bloques `?` son arepas asadas al budare con animación de giro mostrando el relleno.
-- **Enemigos — Tortuga Esqueleto "El Silbón":** Inspirados en los *Dry Bones (Huesitos)* de Mario fusionados con la leyenda venezolana de **El Silbón**:
+- **Enemigo — "El Silbón":** Inspirados en los *Dry Bones (Huesitos)* de Mario fusionados con la leyenda venezolana de **El Silbón**:
   - Llevan **sombrero llanero**, el **saco de huesos** amarrado al caparazón, brillo rojo espectral en la cuenca del ojo y emiten las notas del silbido (`♪`, `♫`) mientras patrullan.
   - Al pisarlos, colapsan en su saco/caparazón de huesos: puedes **patearlos** para arrollar a otros enemigos o, si los dejas quietos unos segundos, sus huesos tiemblan y **reviven**.
 - **Un único Mundo/Nivel (`1-1`):** Al llegar al asta con la bandera de Venezuela y entrar al castillo final, el juego finaliza y se cierra automáticamente.
