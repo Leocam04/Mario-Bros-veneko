@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Super Mario Veneko - Mundo 1-1</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-container" id="gameWrapper">
+    <header class="hud-bar">
+      <div class="hud-item">
+        <span class="hud-label">MARIO VENEKO</span>
+        <span class="hud-value" id="hudScore">000000</span>
+      </div>
+      <div class="hud-item">
+        <span class="hud-label">AREPAS</span>
+        <div class="arepa-counter">
+          <canvas id="hudArepaIcon" width="22" height="22"></canvas>
+          <span class="hud-value" id="hudArepas">x00</span>
+        </div>
+      </div>
+      <div class="hud-item">
+        <span class="hud-label">MUNDO</span>
+        <span class="hud-value">1-1</span>
+      </div>
+      <div class="hud-item">
+        <span class="hud-label">TIEMPO</span>
+        <span class="hud-value" id="hudTime">400</span>
+      </div>
+    </header>
+
+    <canvas id="gameCanvas" width="800" height="480"></canvas>
+
+    <!-- Se activa al terminar el unico nivel y cierra el juego -->
+    <div id="closeOverlay" class="close-overlay hidden">
+      <h1 class="close-title">¡MUNDO 1-1 COMPLETADO!</h1>
+      <p class="close-sub">Fin del juego — Cerrando...</p>
+    </div>
+  </div>
+
+  <div class="controls-bar" id="controlsBar">
+    <span><b>Moverse:</b> Flechas ← → o A / D</span>
+    <span><b>Saltar:</b> Espacio / W / ↑ / Z</span>
+    <span><b>Correr:</b> Shift / X</span>
+  </div>
+
+  <script src="sprites.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
+
